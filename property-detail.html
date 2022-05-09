@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LIVING-THE-DREAM</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="format-decetion" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- meta description & keywords -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- fevicon icon -->
+    <link rel='icon' type='image/x-icon' href="images/favicon-16x.png"/>
+    <!-- jquery library -->
+    <script src="vendor/javascripts/jquery.min.js"></script>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/main.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/themify-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/owl.carousel.min.css"/>
+
+    <!--daterangepicker-->
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment-with-locales.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if IE 8]>
+    <script src="vendor/javascripts/html5shiv.min.js"></script>
+    <script src="vendor/javascripts/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/ie8.css"/>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <html class="ie7"> <![endif]-->
+    <!--[if IE 8]>
+    <html class="ie8"> <![endif]-->
+    <!--[if IE 9]>
+    <html class="ie9"> <![endif]-->
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) {
+            document.documentElement.className += 'ie10';
+        }
+    </script><!--<![endif]-->
+</head>
+<body>
+
+
+<!--====== header ======-->
+<header class="header logged-in">
+    <!--navbar-->
+    <nav class="navbar">
+        <!--nav-link-->
+        <ul class="nav-link">
+            <li><a href="#FAVORITES">FAVORITES</a></li>
+            <li><a href="#OURSELECTION ">OUR SELECTION </a></li>
+        </ul>
+        <!--navbar-brand-->
+        <a class="navbar-brand" href="index.html">
+            <img src="images/brand-logo-loggin.png" alt="brand-logo">
+        </a>
+        <!--nav-link-->
+        <ul class="nav-link">
+            <li><a href="#MAGAZINE">MAGAZINE</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+
+        <!--menu-icon-->
+        <a href="#" class="menu-icon">
+            <div class="icon">
+                <span class="icon-bar first"></span>
+                <span class="icon-bar middle"></span>
+                <span class="icon-bar third"></span>
+            </div>
+        </a>
+
+        <!--call-to-->
+        <div class="clearfix clearto"></div>
+        <div class="call-to">
+            <a href="tel:8187068745" class="tell">CALL TO BOOK +1 818 706 8745</a><br>
+            <a href="#" class="login btn"><span><img src="images/login-icon.png" alt="no-image"> LOGIN</span></a>
+        </div>
+    </nav>
+</header>
+<!--=== close header ===-->
+
+<!--============ sidenavMenu ============-->
+<div id="sidenavMenu" class="sidenav">
+    <!--verticle-block-->
+    <div class="verticle-block">
+        <div class="cell">
+            <div class="container-fluid text-center">
+                <a href="index.html">
+                    <img src="images/brand-logo.png" class="img-responsive" alt="brand-logo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--slidenav link-->
+    <div class="link-list"></div>
+</div>
+<!--========= close sidenavMenu =========-->
+
+
+<!--============= properties-banner =============-->
+<div class="properties-banner">
+    <img src="images/properties-header.jpg" class="full-img">
+    <!--top-skew-->
+    <div class="top-skew"></div>
+    <!--top-skew-content-->
+    <div class="top-skew-content">
+        <div class="share-to">
+            <ul>
+                <li><a href="#" class="btn"><img src="images/gallery.png" alt="no-image"> Photos</a></li>
+                <li><a href="#" class="btn"><img src="images/friend-share.png" alt="no-image"> Share to friends</a></li>
+                <li><a href="#" class="faviourate"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--========== close properties-banner ==========-->
+
+<!--========== reservation-description ==========-->
+<div class="reservation-description">
+    <div class="reservation-container">
+        <!--======== reser-price ========-->
+        <div class="reser-price pull-right">
+            <!--======== your-reservation ========-->
+            <div class="your-reservation wow rotateInUpLeft" data-wow-delay="600ms">
+                <!--top-skew-->
+                <div class="top-skew"></div>
+                <div class="top-skew white"></div>
+                <!--top-skew-content-->
+                <div class="top-skew-content">
+                    <h2>Your Reservation</h2>
+                    <div class="price-detail">
+                        <div class="guest">
+                            May 17th <img src="images/checkin-arrow.png" class="check-image" alt="no-img"> May 20th
+                            <!--======= guest-counter-number =======-->
+                            <span class="guest-counter-number">
+                                <span class="number-guest">6</span> Guests
+                                <span class="counter-guest">
+                                    <!--==increase-guest==-->
+                                    <span class="increase-guest guest-icon qtyplus">
+                                        <span class="ti-plus icon"></span>
+                                    </span>
+                                    <!--==decrease-guest==-->
+                                    <span class="decrease-guest guest-icon qtyminus hideicon">
+                                        <span class="ti-minus icon"></span>
+                                    </span>
+                                </span>
+                          </span>
+                            <!--===== close guest-counter-number =====-->
+                        </div>
+                        <ul>
+                            <li>1 250 $ x 3 nights <span>3 750 $</span></li>
+                            <li>Cleaning fees <span>348 $</span></li>
+                            <li>Gvt taxes 14.42 % <span>590,63 $</span></li>
+                        </ul>
+
+                        <!--====== total-pricing ======-->
+                        <div class="total-pricing">
+                            <h3>Total <strong>4 688,63</strong><span>$</span></h3>
+                            <p>
+                                There is a <strong>7 night minimum</strong> for these dates.<br>
+                                Book instantly based on calendar availability
+                            </p>
+                            <div class="call-row">
+                                <h4>Extend your stay, inquire below, or call <a href="tel:18187068745">1.818.706.8745</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====== make-enquiry ======-->
+                    <div class="make-enquiry">
+                        <a href="#" class="btn">MAKE INQUIRY</a><br>
+                        <a href="#" class="btn booknow">
+                                 <span>
+                                      BOOK NOW
+                                     <img src="images/locator.png" class="dot-locate">
+                                 </span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--===== close your-reservation =====-->
+        </div>
+
+        <!--======== reser-detail ========-->
+        <div class="reser-detail">
+            <!--======== tab-reserve ========-->
+            <div class="tab-reserve-row">
+            <ul class="tab-reserve">
+                <li class="wow fadeInRight" data-wow-delay="200ms">
+                    <div class="verticle-block">
+                        <div class="cell">
+                            <div class="service-notify">
+                                <img src="images/guesticon1.png" alt="notification-icon">
+                                <sup>4</sup>
+                            </div>
+                        </div>
+                    </div>
+                    <p>4 bedrooms</p>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="300ms">
+                    <div class="verticle-block">
+                        <div class="cell">
+                            <div class="service-notify">
+                                <img src="images/guesticon2.png" alt="notification-icon">
+                                <sup>4</sup>
+                            </div>
+                        </div>
+                    </div>
+                    <p>8 guests</p>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="400ms">
+                    <div class="verticle-block">
+                        <div class="cell">
+                            <div class="service-notify">
+                                <img src="images/guesticon3.png" alt="notification-icon">
+                                <sup>4</sup>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Concierge</p>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="500ms">
+                    <div class="verticle-block">
+                        <div class="cell">
+                            <div class="service-notify">
+                                <img src="images/guesticon4.png" alt="notification-icon">
+                                <sup>4</sup>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Pool</p>
+                </li>
+                <li class="active wow fadeInRight" data-wow-delay="600ms">
+                    <div class="verticle-block">
+                        <div class="cell">
+                            <div class="service-notify">
+                                <h3>8/10</h3>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <h4>(1)</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Guests Feedback</p>
+                </li>
+            </ul>
+            </div>
+
+            <!--======== beauty-hill ========-->
+            <div class="beauty-hill">
+                <h2 class="wow fadeInUp" data-wow-delay="200ms">Beauty on the Hill </h2>
+                <h3 class="wow fadeInUp" data-wow-delay="300ms">This beautiful villa is located in Beverly Hills with a spectacular view !</h3>
+                <h4 class="wow fadeInUp" data-wow-delay="400ms"><span class="ti-location-pin"></span> Beverly Hills - California</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere, ligula quis congue
+                    tempus, enim risus porttitor augue, a commodo velit quam eget massa. Maecenas ante nisi, faucibus at
+                    sem a, ornare convallis nisi. Nulla ut tincidunt ante. Etiam vitae sapien sed enim consequat
+                    pulvinar.</p>
+
+                <p> Aenean sed nisi ut mauris pulvinar convallis. Etiam laoreet placerat facilisis. Quisque ipsum augue,
+                    ullamcorper sed placerat nec, aliquam et quam. Integer viverra tellus non tortor porttitor luctus.
+                    Vivamus ultricies molestie quam nec sodales. Curabitur a nisl at enim blandit venenatis et eu
+                    sapien. Duis bibendum sapien est, auctor mattis justo dictum sit amet.</p>
+
+                <p>Donec nibh turpis, tempus a pharetra et, dictum quis mauris. Aenean quis velit sodales, vestibulum
+                    turpis quis, viverra magna // <a href="#" class="see-more">See more</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--======= close reservation-description =======-->
+
+<!--================ our-amenities ================-->
+<div class="our-amenities">
+    <div class="amenities-container">
+        <!--========== amenities-coloumn ==========-->
+        <div class="amenities-coloumn">
+            <h2 class="wow fadeInDown" data-wow-delay="200ms">Amenities</h2>
+            <ul class="wow fadeInUp" data-wow-delay="400ms">
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities1.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities2.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities3.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities4.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities5.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities6.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities7.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities8.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities9.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities10.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities11.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities12.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities13.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities14.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities15.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities16.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities17.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+
+                <li>
+                    <!--====== square ======-->
+                    <div class="square">
+                        <div class="square-cell">
+                            <div class="verticle-block">
+                                <div class="cell">
+                                    <img src="images/amenities18.png" alt="amenities-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== close square ===-->
+                </li>
+            </ul>
+        </div>
+
+        <!--========== policy-coloumn ==========-->
+        <div class="policy-coloumn wow fadeInUp" data-wow-delay="800ms">
+            <h2>Cancellation policy</h2>
+            <div class="policy-centent">
+                <p>
+                    <span>Strict</span> : ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere, ligula
+                    quis
+                    congue
+                    tempus, enim risus porttitor augue, a commodo velit quam eget massa. Maecenas ante nisi, faucibus at
+                    sem
+                    a, ornare convallis nisi. Nulla ut tincidunt ante. Etiam vitae sapien sed enim consequat pulvinar.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--============= close our-amenities =============-->
+
+<!--================ ltd-map ================-->
+<div class="ltd-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52882.59671523544!2d-118.39107435060448!3d34.06535366324592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLiving-the-dream%2C+Los+Angeles!5e0!3m2!1sen!2sin!4v1530620588072"
+            allowfullscreen></iframe>
+</div>
+<!--============= close ltd-map =============-->
+
+<!--============ guest-feedback ============-->
+<div class="guest-feedback">
+    <!--top-skew-->
+    <div class="top-skew confidence"></div>
+
+    <!--top-skew-content-->
+    <div class="top-skew-content">
+        <h2><strong>Guests Feedback</strong> (56)</h2>
+        <!--===feedback-carousel===-->
+        <div class="feedback-carousel">
+            <div class="owl-carousel" id="feedback-slider">
+                <div class="item">
+                    <!--==== feedback-content ====-->
+                    <div class="feedback-content">
+                        <!--===feedbck-name===-->
+                        <div class="feedbck-name">
+                            <div class="letter-icon">
+                                <img src="images/letter-feedback.png" alt="letter-feedback">
+                            </div>
+                            <h4>
+                                Vanessa S. from New York<br>
+                                <small>March 5, 2018</small>
+                            </h4>
+                        </div>
+
+                        <!--====feedback-article====-->
+                        <div class="feedback-article">
+                            <p>
+                                “ When looking for properties online it is normal to wonder if the photographs of
+                                the actual property will come
+                                anywhere close to what it look likes in reality. This property is so much finer than
+                                the photographs that it is
+                                truly beyond words! From the moment we entered the home and saw that $10 million
+                                dollar view we knew we had
+                                arrived in paradise. The layout of the home is perfect, all the bedrooms are large
+                                and comfortable, and the
+                                master suite is so lovely it is hard to leave in the mornings. We are those
+                                vacationers who enjoy cooking and
+                                this chef's kitchen did not disappoint. There was not one thing that we needed to
+                                prepare our meals. To say this
+                                villa is heaven on earth is an understatement. It won't disappoint. What a way to
+                                spend our family Christmas!
+                                Thank you Living the Dream ! ”
+                            </p>
+                        </div>
+                    </div>
+                    <!--==== close feedback-content ====-->
+                </div>
+
+                <div class="item">
+                    <!--==== feedback-content ====-->
+                    <div class="feedback-content">
+                        <!--===feedbck-name===-->
+                        <div class="feedbck-name">
+                            <div class="letter-icon">
+                                <img src="images/letter-feedback.png" alt="letter-feedback">
+                            </div>
+                            <h4>
+                                Vanessa S. from New York<br>
+                                <small>March 5, 2018</small>
+                            </h4>
+                        </div>
+
+                        <!--====feedback-article====-->
+                        <div class="feedback-article">
+                            <p>
+                                “ When looking for properties online it is normal to wonder if the photographs of
+                                the actual property will come
+                                anywhere close to what it look likes in reality. This property is so much finer than
+                                the photographs that it is
+                                truly beyond words! From the moment we entered the home and saw that $10 million
+                                dollar view we knew we had
+                                arrived in paradise. The layout of the home is perfect, all the bedrooms are large
+                                and comfortable, and the
+                                master suite is so lovely it is hard to leave in the mornings. We are those
+                                vacationers who enjoy cooking and
+                                this chef's kitchen did not disappoint. There was not one thing that we needed to
+                                prepare our meals. To say this
+                                villa is heaven on earth is an understatement. It won't disappoint. What a way to
+                                spend our family Christmas!
+                                Thank you Living the Dream ! ”
+                            </p>
+                        </div>
+                    </div>
+                    <!--==== close feedback-content ====-->
+                </div>
+
+                <div class="item">
+                    <!--==== feedback-content ====-->
+                    <div class="feedback-content">
+                        <!--===feedbck-name===-->
+                        <div class="feedbck-name">
+                            <div class="letter-icon">
+                                <img src="images/letter-feedback.png" alt="letter-feedback">
+                            </div>
+                            <h4>
+                                Vanessa S. from New York<br>
+                                <small>March 5, 2018</small>
+                            </h4>
+                        </div>
+
+                        <!--====feedback-article====-->
+                        <div class="feedback-article">
+                            <p>
+                                “ When looking for properties online it is normal to wonder if the photographs of
+                                the actual property will come
+                                anywhere close to what it look likes in reality. This property is so much finer than
+                                the photographs that it is
+                                truly beyond words! From the moment we entered the home and saw that $10 million
+                                dollar view we knew we had
+                                arrived in paradise. The layout of the home is perfect, all the bedrooms are large
+                                and comfortable, and the
+                                master suite is so lovely it is hard to leave in the mornings. We are those
+                                vacationers who enjoy cooking and
+                                this chef's kitchen did not disappoint. There was not one thing that we needed to
+                                prepare our meals. To say this
+                                villa is heaven on earth is an understatement. It won't disappoint. What a way to
+                                spend our family Christmas!
+                                Thank you Living the Dream ! ”
+                            </p>
+                        </div>
+                    </div>
+                    <!--==== close feedback-content ====-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--close top-skew-content-->
+</div>
+<!--========= close guest-feedback =========-->
+
+<!--============= special-request =============-->
+<div class="special-request">
+    <div class="request-form clearfix wow bounceInUp" data-wow-delay="400ms">
+        <div class="mandatory">* mandatory</div>
+        <h2>YOU HAVE A SPECIAL REQUEST ?</h2>
+        <h3>Fill the form below or call us at <a href="tel:+18187068745">+1 818 706 8745</a></h3>
+        <p>We can help mia dolor sit amet, consectetur adipiscing elit. Cras viverra nibh non lorem congue.</p>
+        <form action="#" name="request">
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="firstname" autocomplete="off">
+                        <label for="firstname">First Name *</label>
+                    </div>
+                </div>
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastname" autocomplete="off">
+                        <label for="lastname">Last Name *</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="requestemail" autocomplete="off">
+                        <label for="requestemail">Email *</label>
+                    </div>
+                </div>
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="number" id="phonenumber" class="form-control" autocomplete="off">
+                        <label for="phonenumber">Phone number *</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <textarea class="form-control" id="writecomment" autocomplete="off"></textarea>
+                        <label for="writecomment">Write your comment</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-xs-12 text-center">
+                    <button type="submit" class="btn submit wow flipInX" data-wow-delay="1200ms"><span>SUBMIT</span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!--========== close special-request ==========-->
+
+
+<!--============= subscribe-email =============-->
+<div class="subscribe-email">
+    <!--top-skew-->
+    <div class="top-skew"></div>
+    <!--top-skew-content-->
+    <div class="top-skew-content">
+        <!--subscribe-image-->
+        <div class="subscribe-image wow bounceInLeft" data-wow-duration="1200ms" data-wow-delay="200ms">
+            <img src="images/letter-box.png" alt="letter-box">
+        </div>
+        <!--subscribe-input-->
+        <div class="subscribe-input wow fadeInRight" data-wow-delay="400ms">
+            <p> Be the <strong>first to hear</strong> about new villas and get exclusive discounts delivered to your
+                inbox.</p>
+            <form action="#" name="subscribe-email">
+                <div class="input-group">
+                    <input type="email" placeholder="Your email" autocomplete="off" class="form-control">
+                    <div class="input-group-btn">
+                        <button class="btn" type="submit"><span>SUBSCRIBE</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--========== close subscribe-email ==========-->
+
+
+<!--============= footer-area =============-->
+<div class="footer-area">
+    <!--footer-texture-->
+    <div class="footer-texture"></div>
+    <!--container-->
+    <div class="container">
+        <!--footer-middle-->
+        <div class="footer-middle">
+            <!--link-->
+            <ul class="link">
+                <li><a href="#">FAVORITES</a></li>
+                <li><a href="#">OUR SELECTION</a></li>
+                <li><a href="#">MAGAZINE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">SUBMIT YOUR PROPERTY</a></li>
+            </ul>
+            <!--social-connect-->
+            <ul class="social-connect">
+                <!--== facebook ==-->
+                <li class="wow bounceIn" data-wow-delay="400ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+
+                <!--== twitter ==-->
+                <li class="wow bounceIn" data-wow-delay="600ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+
+                <!--== pinterest ==-->
+                <li class="wow bounceIn" data-wow-delay="700ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-pinterest-p"></i>
+                    </a>
+                </li>
+
+                <!--== linkedin ==-->
+                <li class="wow bounceIn" data-wow-delay="800ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <!--== instagram ==-->
+                <li class="wow bounceIn" data-wow-delay="900ms">
+                    <a href="#" target="_blank">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <!--footer-logo-->
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/footer-logo.png" alt="footer-logo"></a>
+            </div>
+        </div>
+
+        <div class="copy-right">
+            Copyright © 2018 Living The Dream. All rights reserved I Read our
+            <a href="#" class="terms">Terms and conditions</a> for answers to booking and checkin <a href="#">FAQs.</a>
+        </div>
+
+    </div>
+</div>
+<!--========== close footer-area ==========-->
+
+<!--========== Javascript attachment files ==========-->
+<!--  bootstrap script -->
+<script src="vendor/javascripts/bootstrap.min.js"></script>
+<!-- jquery library -->
+<script src="vendor/javascripts/smoothscroll.js"></script>
+<!-- owl-carousel js -->
+<script src="vendor/js/owl.carousel.js"></script>
+<!-- owl-carousel js -->
+<script src="vendor/js/wow.min.js"></script>
+<!-- custom javascript -->
+<script src="vendor/js/custom.js"></script>
+<!--======= Close Javascript attachment files =======-->
+
+</body>
+</html>

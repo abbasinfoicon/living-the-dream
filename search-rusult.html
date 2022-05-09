@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LIVING-THE-DREAM</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="format-decetion" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- meta description & keywords -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- fevicon icon -->
+    <link rel='icon' type='image/x-icon' href="images/favicon-16x.png"/>
+    <!-- jquery library -->
+    <script src="vendor/javascripts/jquery.min.js"></script>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/main.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/themify-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/owl.carousel.min.css"/>
+
+    <!--daterangepicker-->
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment-with-locales.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+    <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if IE 8]>
+    <script src="vendor/javascripts/html5shiv.min.js"></script>
+    <script src="vendor/javascripts/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/ie8.css"/>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <html class="ie7"> <![endif]-->
+    <!--[if IE 8]>
+    <html class="ie8"> <![endif]-->
+    <!--[if IE 9]>
+    <html class="ie9"> <![endif]-->
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) {
+            document.documentElement.className += 'ie10';
+        }
+    </script><!--<![endif]-->
+</head>
+<body>
+
+
+<!--====== header ======-->
+<header class="header logged-in">
+    <!--navbar-->
+    <nav class="navbar">
+        <!--nav-link-->
+        <ul class="nav-link">
+            <li><a href="#FAVORITES">FAVORITES</a></li>
+            <li><a href="#OURSELECTION ">OUR SELECTION </a></li>
+        </ul>
+        <!--navbar-brand-->
+        <a class="navbar-brand" href="index.html">
+            <img src="images/brand-logo-loggin.png" alt="brand-logo">
+        </a>
+        <!--nav-link-->
+        <ul class="nav-link">
+            <li><a href="#MAGAZINE">MAGAZINE</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+
+        <!--menu-icon-->
+        <a href="#" class="menu-icon">
+            <div class="icon">
+                <span class="icon-bar first"></span>
+                <span class="icon-bar middle"></span>
+                <span class="icon-bar third"></span>
+            </div>
+        </a>
+
+        <!--call-to-->
+        <div class="clearfix clearto"></div>
+        <div class="call-to">
+            <a href="tel:8187068745" class="tell">CALL TO BOOK +1 818 706 8745</a><br>
+            <a href="#" class="login btn"><span><img src="images/login-icon.png" alt="no-image"> LOGIN</span></a>
+        </div>
+    </nav>
+</header>
+<!--=== close header ===-->
+
+<!--============ sidenavMenu ============-->
+<div id="sidenavMenu" class="sidenav">
+    <!--verticle-block-->
+    <div class="verticle-block">
+        <div class="cell">
+            <div class="container-fluid text-center">
+                <a href="index.html">
+                    <img src="images/brand-logo.png" class="img-responsive" alt="brand-logo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--slidenav link-->
+    <div class="link-list"></div>
+</div>
+<!--========= close sidenavMenu =========-->
+
+
+<!--============= search-title =============-->
+<div class="search-title">
+    <h2>There are 9 results for California - Beverly Hills</h2>
+</div>
+<!--========== close search-title ==========-->
+
+<!--============= search-filter =============-->
+<div class="search-filter">
+    <!--top-skew-->
+    <div class="top-skew"></div>
+    <!--======top-skew-content======-->
+    <div class="top-skew-content">
+        <!--=============where-want=============-->
+        <div class="where-want">
+            <div class="field-location">
+                <!--input-where-->
+                <div class="input-where">
+                    <div class="where-you-want">
+                <span class="skewx-reverse">
+                    <span class="ti-location-pin"></span>
+                    <input type="text" id="country-select" class="form-control" placeholder="Where ?">
+                </span>
+                    </div>
+                    <ul class="autocomplete-menu">
+                        <li><a href="#">California - Los Angeles </a></li>
+                        <li><a href="#">California - Los Angeles 1</a></li>
+                        <li><a href="#">California - Los Angeles 2</a></li>
+                        <li><a href="#">California - Los Angeles 3</a></li>
+                    </ul>
+                </div>
+
+                <!--check-status-->
+                <div class="check-status">
+                    <div class="where-you-want">
+                <span class="skewx-reverse">
+                    <input type="text" id="daterange" value="" class="form-control" placeholder="Check-in">
+                </span>
+                    </div>
+
+                    <!--Check-in button-->
+                    <!--<button class="btn">
+                        <span class="skewx-reverse">
+                            <span class="check-in">Check-in</span>
+                            <img src="images/checkin-arrow.png" class="check-image" alt="no-img">
+                            <span class="check-out">Check-out</span>
+                        </span>
+                    </button>-->
+                    <!--close Check-in button-->
+                </div>
+
+                <!--guest-number-->
+                <div class="guest-number">
+                    <div class="guest-block">
+                <span class="skewx-reverse">
+                    <span class="number-guest">1</span> Guest
+                    <span class="counter-guest">
+                        <!--==decrease-guest==-->
+                        <span class="decrease-guest guest-icon qtyminus hideicon">
+                            <span class="ti-minus icon"></span>
+                        </span>
+                        <!--==increase-guest==-->
+                        <span class="increase-guest guest-icon qtyplus">
+                            <span class="ti-plus icon"></span>
+                        </span>
+                    </span>
+                </span>
+                    </div>
+                </div>
+
+                <!--search-status-->
+                <div class="search-status">
+                    <button class="btn search">
+                        <span class="skewx-reverse">SEARCH</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--=============close where-want=============-->
+
+        <!--======filter-sort======-->
+        <div class="filter-sort">
+            <!--filter-res-->
+            <a href="javascript:;" class="filter-res"><img src="images/setting-icon.png">Filter your results</a>
+
+            <!--======sort-feature======-->
+            <div class="sort-feature">
+                <div class="select-option">
+                    Sort
+                    <div class="feature-select">
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <select class="form-control feature" id="sel1">
+                            <option>Featured</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="show-map">
+                    <span class="map-text">Show</span> map
+                    <div class="switch-input" id="switch-map">
+                        <input type="checkbox" id="switch"/>
+                        <label for="switch">Toggle</label>
+                    </div>
+                </div>
+            </div>
+            <!--===========close sort-feature===========-->
+        </div>
+    </div>
+    <!--===close top-skew-content===-->
+</div>
+<!--========== close search-filter ==========-->
+
+<!--=========filter-location-result=========-->
+<div class="filter-location-result">
+    <!--top-skew-->
+    <div class="top-skew"></div>
+    <!--top-skew-content-->
+    <div class="top-skew-content">
+        <div class="container-fluid">
+            <!--========properties-boxes========-->
+            <div class="properties-boxes">
+                <div class="row-box">
+                    <!--============ showpalce-map ============-->
+                    <div class="showpalce-row">
+                        <div class="showpalce-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d715489.8247547551!2d-118.17083412311152!3d33.58730090632573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbeviry+hills+LTD!5e0!3m2!1sen!2sin!4v1530796240479" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!--============== inner-place ==============-->
+                    <div class="inner-place">
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/property-1.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Beauty on the Hill</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home7.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Sensational escapade</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home1.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Heaven Park</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home6.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Grand Deluxe Nouveau</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home5.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Adrian Estate</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home4.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Oak View Mountain</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home3.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Grandiose at the top</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/home2.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Blue Bird Estate</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+
+                        <!--properties-card-->
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="properties-card">
+                                <!--place-thumbnail-->
+                                <div class="place-thumbnail">
+                                    <img src="images/property-1.png" alt="properties-img" class="full-img">
+                                    <div class="faviourate">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <!--close place-thumbnail-->
+
+                                <!--properties-detail-->
+                                <div class="properties-detail">
+                                    <h2>Sunshine Stones</h2>
+                                    <div class="rate-our-deal">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <h4>(1)</h4>
+                                        <h5 class="place-name"><span class="ti-location-pin"></span> Beverly Hills</h5>
+                                    </div>
+                                    <p>Duis ultricies ipsum nec libero tempus portm nec libero temp
+                                        hasellu ro tempus portm nec libero tem lorem lipsum...</p>
+                                    <!--footer-price-->
+                                    <div class="footer-price">
+                                        <!--notification-->
+                                        <div class="notification">
+                                            <ul>
+                                                <li><img src="images/bed-icon.png" alt="notification-icon"><sup>4</sup>
+                                                </li>
+                                                <li><img src="images/people-icon.png"
+                                                         alt="notification-icon"><sup>8</sup>
+                                                </li>
+                                                <li><img src="images/person-icon.png" alt="notification-icon"></li>
+                                                <li><img src="images/swim-icon.png" alt="notification-icon"></li>
+                                            </ul>
+                                        </div>
+                                        <!--from-price-->
+                                        <div class="from-price">
+                                            <h2 class="locator"><span>
+                                        <sup>FROM $</sup>1,587
+                                         <img src="images/locator.png" class="dot-locate">
+                                    </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!--close footer-price-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--close properties-card-->
+                    </div>
+                    <!--close inner-place-->
+
+                </div>
+            </div>
+            <!--======close properties-boxes======-->
+
+        </div>
+    </div>
+</div>
+<!--======close filter-location-result======-->
+
+<!--============= special-request =============-->
+<div class="special-request">
+    <div class="request-form clearfix wow bounceInUp" data-wow-delay="400ms">
+        <div class="mandatory">* mandatory</div>
+        <h2>YOU HAVE A SPECIAL REQUEST ?</h2>
+        <h3>Fill the form below or call us at <a href="tel:+18187068745">+1 818 706 8745</a></h3>
+        <p>We can help mia dolor sit amet, consectetur adipiscing elit. Cras viverra nibh non lorem congue.</p>
+        <form action="#" name="request">
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="firstname" autocomplete="off">
+                        <label for="firstname">First Name *</label>
+                    </div>
+                </div>
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastname" autocomplete="off">
+                        <label for="lastname">Last Name *</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="requestemail" autocomplete="off">
+                        <label for="requestemail">Email *</label>
+                    </div>
+                </div>
+                <!--==== form-group ====-->
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <input type="number" id="phonenumber" class="form-control" autocomplete="off">
+                        <label for="phonenumber">Phone number *</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <textarea class="form-control" id="writecomment" autocomplete="off"></textarea>
+                        <label for="writecomment">Write your comment</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--==== form-group ====-->
+                <div class="col-xs-12 text-center">
+                    <button type="submit" class="btn submit wow flipInX" data-wow-delay="1200ms"><span>SUBMIT</span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!--========== close special-request ==========-->
+
+
+<!--============= subscribe-email =============-->
+<div class="subscribe-email">
+    <!--top-skew-->
+    <div class="top-skew"></div>
+    <!--top-skew-content-->
+    <div class="top-skew-content">
+        <!--subscribe-image-->
+        <div class="subscribe-image wow bounceInLeft" data-wow-duration="1200ms" data-wow-delay="200ms">
+            <img src="images/letter-box.png" alt="letter-box">
+        </div>
+        <!--subscribe-input-->
+        <div class="subscribe-input wow fadeInRight" data-wow-delay="400ms">
+            <p> Be the <strong>first to hear</strong> about new villas and get exclusive discounts delivered to your
+                inbox.</p>
+            <form action="#" name="subscribe-email">
+                <div class="input-group">
+                    <input type="email" placeholder="Your email" autocomplete="off" class="form-control">
+                    <div class="input-group-btn">
+                        <button class="btn" type="submit"><span>SUBSCRIBE</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--========== close subscribe-email ==========-->
+
+
+<!--============= footer-area =============-->
+<div class="footer-area">
+    <!--footer-texture-->
+    <div class="footer-texture"></div>
+    <!--container-->
+    <div class="container">
+        <!--footer-middle-->
+        <div class="footer-middle">
+            <!--link-->
+            <ul class="link">
+                <li><a href="#">FAVORITES</a></li>
+                <li><a href="#">OUR SELECTION</a></li>
+                <li><a href="#">MAGAZINE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">SUBMIT YOUR PROPERTY</a></li>
+            </ul>
+            <!--social-connect-->
+            <ul class="social-connect">
+                <!--== facebook ==-->
+                <li class="wow bounceIn" data-wow-delay="400ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+
+                <!--== twitter ==-->
+                <li class="wow bounceIn" data-wow-delay="600ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+
+                <!--== pinterest ==-->
+                <li class="wow bounceIn" data-wow-delay="700ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-pinterest-p"></i>
+                    </a>
+                </li>
+
+                <!--== linkedin ==-->
+                <li class="wow bounceIn" data-wow-delay="800ms">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <!--== instagram ==-->
+                <li class="wow bounceIn" data-wow-delay="900ms">
+                    <a href="#" target="_blank">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <!--footer-logo-->
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/footer-logo.png" alt="footer-logo"></a>
+            </div>
+        </div>
+
+        <div class="copy-right">
+            Copyright © 2018 Living The Dream. All rights reserved I Read our
+            <a href="#" class="terms">Terms and conditions</a> for answers to booking and checkin <a href="#">FAQs.</a>
+        </div>
+
+    </div>
+</div>
+<!--========== close footer-area ==========-->
+
+<!--========== Javascript attachment files ==========-->
+<!--  bootstrap script -->
+<script src="vendor/javascripts/bootstrap.min.js"></script>
+<!-- jquery library -->
+<script src="vendor/javascripts/smoothscroll.js"></script>
+<!-- owl-carousel js -->
+<script src="vendor/js/owl.carousel.js"></script>
+<!-- mCustomScrollbar js -->
+<script src="vendor/js/mCustomScrollbar.min.js"></script>
+<!-- owl-carousel js -->
+<script src="vendor/js/wow.min.js"></script>
+<!-- custom javascript -->
+<script src="vendor/js/custom.js"></script>
+<!--======= Close Javascript attachment files =======-->
+
+</body>
+</html>
